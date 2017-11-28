@@ -1,22 +1,29 @@
 Bộ chuyển đổi tiếng việt phỏng theo nghiên cứu của PGS.TS Bùi Hiền (For fun :D). Module sử dụng Typescript
 
 ### Installation
-
-`npm install --save tiengviet-to-tieqviet`
+    ```bash 
+    npm install --save tiengviet-to-tieqviet
+    ```
 
 ## Usage
 ### Nodejs
-`var tieqviet = require('tiengviet-to-tieqviet');`
-`var boys = tieqviet.convert('Luật giáo dục');`
-`Output should be 'Luật záo zụk'`
+```bash
+var tieqviet = require('tiengviet-to-tieqviet');
+var boys = tieqviet.convert('Luật giáo dục');
+Output should be 'Luật záo zụk'
+```
 
 ### TypeScript
-`import * as tieqviet from 'tiengviet-to-tieqviet';`
-`console.log(tieqviet.convert('Luật giáo dục'));`
-`Output should be 'Luật záo zụk'`
+```bash
+import * as tieqviet from 'tiengviet-to-tieqviet';
+console.log(tieqviet.convert('Luật giáo dục'));
+Output should be 'Luật záo zụk'
+```
 
 ## Test
-`npm run test`
+    ```bash 
+    npm run test
+    ```
 
 ## Contributing
 

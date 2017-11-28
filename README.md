@@ -1,9 +1,9 @@
 Bộ chuyển đổi tiếng việt phỏng theo nghiên cứu của PGS.TS Bùi Hiền (For fun :D). Module sử dụng Typescript
 
 ### Installation
-    ```bash 
-    npm install --save tiengviet-to-tieqviet
-    ```
+```bash 
+npm install --save tiengviet-to-tieqviet
+```
 
 ## Usage
 ### Nodejs
@@ -21,9 +21,9 @@ Output should be 'Luật záo zụk'
 ```
 
 ## Test
-    ```bash 
-    npm run test
-    ```
+```bash 
+npm run test
+```
 
 ## Contributing
 

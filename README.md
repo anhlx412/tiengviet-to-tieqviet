@@ -6,17 +6,17 @@ Bộ chuyển đổi tiếng việt phỏng theo nghiên cứu của PGS.TS Bùi
 
 ## Usage
 ### Nodejs
-var tieqviet = require('tiengviet-to-tieqviet');
-var boys = tieqviet.convert('Luật giáo dục');
-Output should be 'Luật záo zụk'
+`var tieqviet = require('tiengviet-to-tieqviet');`
+`var boys = tieqviet.convert('Luật giáo dục');`
+`Output should be 'Luật záo zụk'`
 
 ### TypeScript
-import * as tieqviet from 'tiengviet-to-tieqviet';
-console.log(tieqviet.convert('Luật giáo dục'))
-Output should be 'Luật záo zụk'
+`import * as tieqviet from 'tiengviet-to-tieqviet';`
+`console.log(tieqviet.convert('Luật giáo dục'));`
+`Output should be 'Luật záo zụk'`
 
 ## Test
-npm run test
+`npm run test`
 
 ## Contributing
 
